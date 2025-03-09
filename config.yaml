@@ -1,0 +1,19 @@
+model:
+  id: "Qwen/Qwen2.5-Coder-32B-Instruct"
+  max_tokens: 2096
+  temperature: 0.7
+
+app:
+  title: "USA Tour Guide AI Assistant"
+  description: "An AI travel assistant that helps tourists plan trips and navigate destinations within the United States."
+  
+features:
+  weather: true
+  hotels: true
+  attractions: true
+  transportation: true
+  budget: true
+  
+search:
+  enabled: true
+  max_results: 5 
